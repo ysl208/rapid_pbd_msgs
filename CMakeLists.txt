@@ -55,6 +55,8 @@ add_message_files(
   FILES
   Action.msg
   ArmControllerState.msg
+  Condition.msg
+  ConditionCheckInfo.msg
   ControlStrategy.msg
   EditorEvent.msg
   Landmark.msg

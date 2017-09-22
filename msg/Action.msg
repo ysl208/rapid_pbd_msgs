@@ -13,6 +13,10 @@ string DETECT_TABLETOP_OBJECTS = detect tabletop objects
 # Find a custom landmark
 string FIND_CUSTOM_LANDMARK = find custom landmark
 
+## The third set of actions are checks on the world conditions
+# Check world for conditions
+string CHECK_CONDITIONS = check world conditions
+
 string type
 
 # If this is an actuation, this specifies what is being moved.
@@ -47,3 +51,6 @@ ControlStrategy control_strategy
 # Perception specifications
 ## If type == FIND_CUSTOM_LANDMARK
 string custom_landmark_name
+
+# If type == CHECK_CONDITIONS
+rapid_pbd_msgs/Condition condition # Landmark condition to check.

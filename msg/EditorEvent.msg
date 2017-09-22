@@ -6,6 +6,11 @@ string CREATE = create program
 string UPDATE = update program
 string DELETE = delete program
 
+# Checking the program conditions
+string GENERATE_CONDITIONS = generate conditions
+string CHECK_CONDITIONS = check conditions
+string UPDATE_CONDITIONS = update conditions
+
 # Manipulating the program structure
 string ADD_STEP = add step
 string DELETE_STEP = delete step
@@ -25,6 +30,7 @@ string type
 # If type is CREATE, only program_info.name is needed.
 # If type is UPDATE, all fields of program_info and program are needed.
 # If type is DELETE, only program_info.db_id is needed.
+# If type is GENERATE_CONDITIONS, program_info.db_id, step_num, action_num, landmark_name needed.
 # If type is ADD_STEP, only program_info.db_id is needed.
 # If type is DELETE_STEP, program_info.db_id and step_num are needed
 # If type is ADD_ACTION, program_info.db_id, step_num, and action are needed
@@ -38,3 +44,4 @@ rapid_pbd_msgs/Program program
 int32 step_num # 0-indexed step number
 rapid_pbd_msgs/Action action
 int32 action_num # 0-indexed action number
+string landmark_name # main landmark for condition check
