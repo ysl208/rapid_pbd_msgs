@@ -18,6 +18,7 @@ geometry_msgs/Point position
 bool orientationRelevant
 geometry_msgs/Vector3 orientationVariance
 geometry_msgs/Quaternion orientation
+geometry_msgs/Vector3 eulerAngles
 
 ## Relative landmark
 Landmark reference
@@ -32,6 +33,7 @@ geometry_msgs/Vector3 contDisplacement
 bool contOrientationRelevant
 geometry_msgs/Vector3 contOrientationVariance
 geometry_msgs/Quaternion contOrientation
+# geometry_msgs/Vector3 contEulerAngles
 
 bool discDisplacementRelevant
 string spatial_relation
