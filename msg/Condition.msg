@@ -30,10 +30,13 @@ bool contDisplacementRelevant
 geometry_msgs/Vector3 contDisplacementVariance
 geometry_msgs/Vector3 contDisplacement
 
+bool discDisplacementRelevant
+string spatial_relation
+
 bool contOrientationRelevant
 geometry_msgs/Vector3 contOrientationVariance
 geometry_msgs/Quaternion contOrientation
-# geometry_msgs/Vector3 contEulerAngles
+geometry_msgs/Vector3 contEulerAngles
 
-bool discDisplacementRelevant
-string spatial_relation
+bool discOrientationRelevant
+string alignment

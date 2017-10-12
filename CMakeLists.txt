@@ -9,6 +9,7 @@ project(rapid_pbd_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
+  baxter_core_msgs
   control_msgs
   geometry_msgs
   message_generation
@@ -84,6 +85,7 @@ add_action_files(
 generate_messages(
   DEPENDENCIES
   actionlib_msgs
+  baxter_core_msgs
   control_msgs
   geometry_msgs
   moveit_msgs
@@ -125,6 +127,7 @@ catkin_package(
 #  LIBRARIES rapid_pbd_msgs
   CATKIN_DEPENDS
     actionlib_msgs
+    baxter_core_msgs
     control_msgs
     geometry_msgs
     moveit_msgs
