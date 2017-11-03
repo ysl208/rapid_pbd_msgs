@@ -2,8 +2,8 @@
 Changelog for package rapid_pbd_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.3 (2017-11-03)
+------------------
 * Include detected surface in surface segmentation action result (`#2 <https://github.com/jstnhuang/rapid_pbd_msgs/issues/2>`_)
 * Contributors: pengy25
 
