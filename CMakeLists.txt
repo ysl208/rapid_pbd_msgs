@@ -64,6 +64,7 @@ add_message_files(
   Program.msg
   ProgramInfo.msg
   ProgramInfoList.msg
+  Surface.msg
   Step.msg
 )
 
@@ -72,6 +73,7 @@ add_service_files(
   FILES
   FreezeArm.srv
   RelaxArm.srv
+  CreateProgram.srv
 )
 
 ## Generate actions in the 'action' folder
