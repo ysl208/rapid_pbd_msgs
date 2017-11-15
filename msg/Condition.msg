@@ -1,18 +1,23 @@
 ## Set to true if this condition is relevant for this landmark
 bool relevant
 
+## Surface
+Surface surface
+
 ## Main landmark
 Landmark landmark
 
 ## Object properties (bounding box size, color)
 ## variance (e.g. 0.075)
 bool sizeRelevant
-geometry_msgs/Vector3 sizeVariance
+geometry_msgs/Vector3 sizeVariance 
 geometry_msgs/Vector3 surface_box_dims
 
 ## Absolute properties (position, orientation)
 bool positionRelevant
 geometry_msgs/Vector3 positionVariance
+geometry_msgs/Vector3 min_pos
+geometry_msgs/Vector3 max_pos
 geometry_msgs/Point position
 
 bool orientationRelevant
