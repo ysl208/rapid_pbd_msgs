@@ -17,6 +17,9 @@ string FIND_CUSTOM_LANDMARK = find custom landmark
 # Check world for conditions
 string CHECK_CONDITIONS = check world conditions
 
+## The fourth set of actions are inferences on the program specification
+string INFER_SPECIFICATION = infer specification
+
 string type
 
 # If this is an actuation, this specifies what is being moved.
@@ -54,3 +57,6 @@ string custom_landmark_name
 
 # If type == CHECK_CONDITIONS
 rapid_pbd_msgs/Condition condition # Landmark condition to check.
+
+# If type == INFER_SPECIFICATION
+std_msgs/Float64MultiArray posteriors

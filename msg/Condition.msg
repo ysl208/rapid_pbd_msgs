@@ -45,3 +45,7 @@ geometry_msgs/Vector3 contEulerAngles
 
 bool discOrientationRelevant
 string alignment
+
+int32 obj_num # number of positions to be generated
+int32 row_num # number of columns to be generated
+int32 col_num # number of rows to be generated

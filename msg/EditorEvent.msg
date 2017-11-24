@@ -9,6 +9,9 @@ string GENERATE_CONDITIONS = generate conditions
 string UPDATE_CONDITIONS = update conditions
 string VIEW_CONDITIONS = view conditions
 
+# Infering the program specification
+string INFER_SPEC = infer specification
+
 # Manipulating the program structure
 string ADD_SENSE_STEPS = add sense steps
 string ADD_STEP = add step

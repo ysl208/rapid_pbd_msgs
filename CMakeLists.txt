@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   moveit_msgs
   sensor_msgs
+  std_msgs
   trajectory_msgs
 )
 
