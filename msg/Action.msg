@@ -60,3 +60,4 @@ rapid_pbd_msgs/Condition condition # Landmark condition to check.
 
 # If type == INFER_SPECIFICATION
 std_msgs/Float64MultiArray posteriors
+rapid_pbd_msgs/Specification[] specs

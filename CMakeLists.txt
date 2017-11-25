@@ -65,6 +65,7 @@ add_message_files(
   Program.msg
   ProgramInfo.msg
   ProgramInfoList.msg
+  Specification.msg
   Surface.msg
   Step.msg
 )
