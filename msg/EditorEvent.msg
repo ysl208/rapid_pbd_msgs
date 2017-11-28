@@ -12,6 +12,7 @@ string VIEW_CONDITIONS = view conditions
 # Infering the program specification
 string INFER_SPECIFICATION = infer specification
 string VIEW_SPECIFICATION = view specification
+string SELECT_SPECIFICATION = select specification
 
 # Manipulating the program structure
 string ADD_SENSE_STEPS = add sense steps
