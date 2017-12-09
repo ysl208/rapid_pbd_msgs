@@ -3,6 +3,7 @@ string name
 int32 row_num # a number between 1 and 100 (entire surface)
 int32 col_num # a number between 1 and 100
 geometry_msgs/Vector3 offset # x,y offset for every second row
+bool flag1D
 
 # fixed parameters that are initialized after the first object has been placed
 rapid_pbd_msgs/Landmark landmark # first landmark
