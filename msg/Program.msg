@@ -7,5 +7,7 @@ Step[] steps # The sequence of steps to execute in this program.
 sensor_msgs/JointState start_joint_state
 
 # Program specification scores
-rapid_pbd_msgs/Specification[] specs
+rapid_pbd_msgs/Specification[] template_specs
 std_msgs/Float64MultiArray posteriors
+geometry_msgs/PoseArray[] grid # grid of poses
+rapid_pbd_msgs/Specification spec
