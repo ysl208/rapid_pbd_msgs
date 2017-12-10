@@ -21,3 +21,4 @@ geometry_msgs/PoseStamped pose_stamped
 string name
 geometry_msgs/Vector3 surface_box_dims # Dimensions of a tabletop box
 uint32 ar_tag_id # The AR tag ID or master tag ID
+int32 marker_type # The visualization marker type
