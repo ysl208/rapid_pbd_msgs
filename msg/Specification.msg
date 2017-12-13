@@ -2,6 +2,7 @@
 string name
 int32 row_num # a number between 1 and 100 (entire surface)
 int32 col_num # a number between 1 and 100
+int32 height_num # a number between 1 and 100
 geometry_msgs/Vector3 offset # x,y offset for every second row
 bool flag1D
 
@@ -14,3 +15,5 @@ float64 avg_dy # average object distance in y-axis
 
 # parameters that can be defined by the user
 int32 obj_num
+
+string[] programs # other programs to be run on select
