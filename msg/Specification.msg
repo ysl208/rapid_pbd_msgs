@@ -16,4 +16,4 @@ float64 avg_dy # average object distance in y-axis
 # parameters that can be defined by the user
 int32 obj_num
 
-string[] programs # other programs to be run on select
+string pick_program # pick program to be run on select
