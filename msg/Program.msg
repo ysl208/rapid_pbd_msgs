@@ -11,3 +11,8 @@ rapid_pbd_msgs/Specification[] template_specs
 std_msgs/Float64MultiArray posteriors
 geometry_msgs/PoseArray[] grid # grid of poses
 rapid_pbd_msgs/Specification spec
+
+# Collision avoidance
+# bounding box around gripper
+# dimensions can be initialised according to robot
+rapid_pbd_msgs/Landmark gripper_box 
