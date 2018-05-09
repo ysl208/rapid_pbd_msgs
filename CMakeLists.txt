@@ -9,7 +9,6 @@ project(rapid_pbd_msgs)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
-  baxter_core_msgs
   control_msgs
   geometry_msgs
   message_generation
