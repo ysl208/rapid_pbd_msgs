@@ -55,18 +55,25 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Action.msg
+  ActionModel.msg
   ArmControllerState.msg
   Condition.msg
   ConditionCheckInfo.msg
   ControlStrategy.msg
+  Domain.msg
+  DomainInfo.msg
+  DomainInfoList.msg
   EditorEvent.msg
   Landmark.msg
+  Predicate.msg
   Program.msg
   ProgramInfo.msg
   ProgramInfoList.msg
   Specification.msg
-  Surface.msg
   Step.msg
+  Surface.msg
+  Type.msg
+
 )
 
 ## Generate services in the 'srv' folder
