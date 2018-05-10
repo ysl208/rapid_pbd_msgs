@@ -12,7 +12,6 @@ std_msgs/Float64MultiArray posteriors
 geometry_msgs/PoseArray[] grid # grid of poses
 rapid_pbd_msgs/Specification spec
 
-# Collision avoidance
-# bounding box around gripper
-# dimensions can be initialised according to robot
-rapid_pbd_msgs/Landmark gripper_box 
+# AI planning: A Program corresponds to an atomic action
+# and is therefore associated with an action_model
+rapid_pbd_msgs/ActionModel action_model
