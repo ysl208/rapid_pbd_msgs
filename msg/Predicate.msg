@@ -24,4 +24,4 @@ rapid_pbd_msgs/Type stackable2 # must be type == TABLE_ENTITY
 
 ## If predicate == NOT
 ## Used to negate an existing predicate
-rapid_pbd_msgs/Predicate predicate2
+# rapid_pbd_msgs/Predicate predicate2
