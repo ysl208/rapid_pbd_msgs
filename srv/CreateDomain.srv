@@ -2,4 +2,4 @@
 
 string name # The name to give to the new program.
 ---
-string db_id
+string domain_id
