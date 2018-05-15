@@ -55,24 +55,26 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   Action.msg
-  ActionModel.msg
   ArmControllerState.msg
   Condition.msg
   ConditionCheckInfo.msg
   ControlStrategy.msg
-  Domain.msg
-  DomainInfo.msg
-  DomainInfoList.msg
   EditorEvent.msg
   Landmark.msg
-  Predicate.msg
+  PDDLAction.msg
+  PDDLDomain.msg
+  PDDLDomainInfo.msg
+  PDDLDomainInfoList.msg
+  PDDLObject.msg
+  PDDLPredicate.msg
+  PDDLProblem.msg
+  PDDLType.msg
   Program.msg
   ProgramInfo.msg
   ProgramInfoList.msg
   Specification.msg
   Step.msg
   Surface.msg
-  Type.msg
 
 )
 
