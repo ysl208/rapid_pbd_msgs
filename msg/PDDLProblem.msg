@@ -1,6 +1,6 @@
 string name          # name of problem
 string domain        # name of domain to use
-pddl_msgs/PDDLObject[] objects # objects with names
+rapid_pbd_msgs/PDDLObject[] objects # objects with names
 
 string[] initial     # initial condition
 rapid_pbd_msgs/PDDLPredicate[] inits

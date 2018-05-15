@@ -19,4 +19,4 @@ rapid_pbd_msgs/Landmark gripper_box
 
 # AI planning: A Program corresponds to an atomic action
 # and is therefore associated with an action_model
-rapid_pbd_msgs/ActionModel action_model
+rapid_pbd_msgs/PDDLAction action
