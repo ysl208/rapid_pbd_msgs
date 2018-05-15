@@ -1,0 +1,1 @@
+rapid_pbd_msgs/PDDLDomainInfo[] domains
