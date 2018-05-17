@@ -3,6 +3,7 @@
 # Used to update detailed fields of a program, not the structure itself
 string UPDATE = update program
 string DELETE = delete program
+string SAVE_ON_EXIT = save on exit program
 
 # Checking the program conditions
 string GENERATE_CONDITIONS = generate conditions
