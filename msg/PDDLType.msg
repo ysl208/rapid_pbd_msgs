@@ -31,5 +31,5 @@ geometry_msgs/Vector3 unit_obj_dims # object dimensions along x,y,z-axes
 
 ## If it is a position, then its location needs to be defined
 ## together with the size of the location
-geometry_msgs/Pose pose # location center point
+geometry_msgs/PoseStamped pose_stamped # location center point
 geometry_msgs/Vector3 dimensions # location dimensions along x,y,z-axes
