@@ -1,7 +1,7 @@
 # Domain for AI planning
 string name
-string [] requirements
-string [] constants
+#string [] requirements
+#string [] constants
 
 # Types in the domain
 rapid_pbd_msgs/PDDLType[] types
