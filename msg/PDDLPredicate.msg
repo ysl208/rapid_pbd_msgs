@@ -3,25 +3,17 @@
 string IS_CLEAR = top is clear
 string IS_ON = object is on table entity
 string IS_STACKABLE = object is stackable on
-string NOT = not
 
-string predicate
+string name
 
-## If predicate == IS_CLEAR
-## This condition is used to check if something can be placed on top
-rapid_pbd_msgs/PDDLType type # must be type == TABLE_ENTITY
+## All predicates have at least one argument
+rapid_pbd_msgs/PDDLObject arg1
 
-## If predicate == IS_ON
+## If predicate == IS_ON or predicate == IS_STACKABLE there is a 2nd argument
 ## Used for objects that can be stacked on another object or on a position
-rapid_pbd_msgs/PDDLType is_on1 # must be type == OBJECT
-rapid_pbd_msgs/PDDLType is_on2 # must be type == TABLE_ENTITY
-
-## If predicate == IS_STACKABLE
-## Used to define if objects can be stacked on another object 
 ## All objects can be stacked on a position
-rapid_pbd_msgs/PDDLType stackable1 # must be type == OBJECT
-rapid_pbd_msgs/PDDLType stackable2 # must be type == TABLE_ENTITY
+# arg1 must be type == OBJECT
+rapid_pbd_msgs/PDDLObject arg2 # must be type == TABLE_ENTITY
 
-## If predicate == NOT
 ## Used to negate an existing predicate
-# rapid_pbd_msgs/PDDLPredicate predicate2
+bool negate
