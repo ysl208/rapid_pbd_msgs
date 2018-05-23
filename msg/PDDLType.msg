@@ -4,7 +4,7 @@ string SUCTION_GRIPPER = suction gripper
 string CLAW_GRIPPER = claw gripper
 
 # Table Entities
-string TABLE_ENTITY = entities on the table
+string TABLE_ENTITY = table entity
 # Objects (subset of TABLE_ENTITY)
 string OBJECT = object
 string CUBE_OBJECT = cube
@@ -20,6 +20,7 @@ string C_POSITION = position C
 string D_POSITION = position D
 
 string name
+string parent
 
 ## If it is a gripper, then the arm needs to be specified
 string LEFT_ARM = left arm

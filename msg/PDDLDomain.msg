@@ -1,5 +1,6 @@
 # Domain for AI planning
 string name
+string domain_id
 #string [] requirements
 #string [] constants
 
