@@ -19,7 +19,7 @@ string B_POSITION = position B
 string C_POSITION = position C
 string D_POSITION = position D
 
-string type
+string name
 
 ## If it is a gripper, then the arm needs to be specified
 string LEFT_ARM = left arm
@@ -31,5 +31,5 @@ geometry_msgs/Vector3 unit_obj_dims # object dimensions along x,y,z-axes
 
 ## If it is a position, then its location needs to be defined
 ## together with the size of the location
-geometry_msgs/PoseStamped pose_stamped # location center point
+geometry_msgs/Pose pose # location center point
 geometry_msgs/Vector3 dimensions # location dimensions along x,y,z-axes

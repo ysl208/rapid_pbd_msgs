@@ -1,8 +1,8 @@
 # Type for AI planning
 
-string IS_CLEAR = top is clear
-string IS_ON = object is on table entity
-string IS_STACKABLE = object is stackable on
+string IS_CLEAR = clear
+string IS_ON = on
+string IS_STACKABLE = stackable
 
 string name
 
