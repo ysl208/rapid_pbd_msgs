@@ -3,7 +3,13 @@
 # Used to update detailed fields of a program, not the structure itself
 string UPDATE = update program
 string DELETE = delete program
+
+# Used to update the PDDL domain
 string SAVE_ON_EXIT = save on exit program
+string UPDATE_PDDL_ACTION = update pddl action
+string ADD_PDDL_ACTION = add pddl action
+string DELETE_PDDL_ACTION = delete pddl action
+string DETECT_WORLD_STATE = detect world state
 
 # Checking the program conditions
 string GENERATE_CONDITIONS = generate conditions
@@ -55,3 +61,7 @@ rapid_pbd_msgs/Action action
 int32 action_num # 0-indexed action number
 rapid_pbd_msgs/Landmark landmark # main landmark for condition check
 rapid_pbd_msgs/Specification spec # view specification
+rapid_pbd_msgs/PDDLAction pddl_action # only for update pddl action
+string action_name
+string domain_id
+string state_name # precondition or effect

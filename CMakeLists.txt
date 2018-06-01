@@ -83,7 +83,7 @@ add_service_files(
   FILES
   FreezeArm.srv
   RelaxArm.srv
-  CreateDomain.srv
+  CreatePDDLDomain.srv
   CreateProgram.srv
 )
 

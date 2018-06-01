@@ -1,8 +1,9 @@
 # Action model for AI planning
 string name
+string program
 
 # Parameters are variables on which the action model operates
-rapid_pbd_msgs/PDDLType[] params
+rapid_pbd_msgs/PDDLObject[] params
 
 # In rapid_pbd: 
 # Preconditions/Effects are observed world states at start/end of the Program
