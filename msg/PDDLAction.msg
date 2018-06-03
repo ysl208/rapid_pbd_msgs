@@ -1,6 +1,6 @@
 # Action model for AI planning
 string name
-string program
+string program_id
 
 # Parameters are variables on which the action model operates
 rapid_pbd_msgs/PDDLObject[] params
