@@ -10,6 +10,7 @@ string UPDATE_PDDL_ACTION = update pddl action
 string ADD_PDDL_ACTION = add pddl action
 string DELETE_PDDL_ACTION = delete pddl action
 string DETECT_WORLD_STATE = detect world state
+string ASSIGN_SURFACE_OBJECTS = assign surface objects
 
 # Checking the program conditions
 string GENERATE_CONDITIONS = generate conditions
