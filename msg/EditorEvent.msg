@@ -6,6 +6,7 @@ string DELETE = delete program
 
 # Used to update the PDDL domain
 string SAVE_ON_EXIT = save on exit program
+string UPDATE_PDDL_DOMAIN = update pddl domain
 string UPDATE_PDDL_ACTION = update pddl action
 string ADD_PDDL_ACTION = add pddl action
 string DELETE_PDDL_ACTION = delete pddl action
@@ -62,7 +63,8 @@ rapid_pbd_msgs/Action action
 int32 action_num # 0-indexed action number
 rapid_pbd_msgs/Landmark landmark # main landmark for condition check
 rapid_pbd_msgs/Specification spec # view specification
+string domain_id
+rapid_pbd_msgs/PDDLDomain pddl_domain
 rapid_pbd_msgs/PDDLAction pddl_action # only for update pddl action
 string action_name
-string domain_id
 string state_name # precondition or effect

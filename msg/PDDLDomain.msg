@@ -11,3 +11,6 @@ rapid_pbd_msgs/PDDLPredicate[] predicates
 
 # Action models
 rapid_pbd_msgs/PDDLAction[] actions
+
+# Problems
+rapid_pbd_msgs/PDDLProblem[] problems
