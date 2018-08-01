@@ -1,10 +1,10 @@
 # Type for AI planning
 # Grippers
-string SUCTION_GRIPPER = suction gripper
-string CLAW_GRIPPER = claw gripper
+string SUCTION_GRIPPER = suction
+string CLAW_GRIPPER = claw
 
 # Table Entities
-string TABLE_ENTITY = table entity
+string TABLE_ENTITY = table
 # Objects (subset of TABLE_ENTITY)
 string OBJECT = object
 string CUBE_OBJECT = cube
@@ -14,10 +14,10 @@ string RECTANGLE_OBJECT = rectangle
 
 # Locations (subset of TABLE_ENTITY)
 string POSITION = position
-string A_POSITION = position A
-string B_POSITION = position B
-string C_POSITION = position C
-string D_POSITION = position D
+string A_POSITION = posA
+string B_POSITION = posB
+string C_POSITION = posC
+string D_POSITION = posD
 
 string name
 string parent
