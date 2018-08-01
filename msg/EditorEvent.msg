@@ -7,16 +7,18 @@ string DELETE = delete program
 # Used to update the PDDL domain
 string SAVE_ON_EXIT = save on exit program
 string UPDATE_PDDL_DOMAIN = update pddl domain
-string DETECT_WORLD_STATE = detect world state
 string ASSIGN_SURFACE_OBJECTS = assign surface objects
 # PDDL actions
+string DETECT_ACTION_CONDITIONS = detect action conditions
 string ADD_PDDL_ACTION = add pddl action
 string UPDATE_PDDL_ACTION = update pddl action
 string DELETE_PDDL_ACTION = delete pddl action
 # PDDL problems
+string DETECT_WORLD_STATE = detect world state
 string ADD_PDDL_PROBLEM = add pddl problem
 string UPDATE_PDDL_PROBLEM = update pddl problem
 string DELETE_PDDL_PROBLEM = delete pddl problem
+string SOLVE_PDDL_PROBLEM = solve pddl problem
 
 # Checking the program conditions
 string GENERATE_CONDITIONS = generate conditions
@@ -75,3 +77,4 @@ rapid_pbd_msgs/PDDLAction pddl_action # only for update pddl action
 string state_name # precondition or effect
 string problem_name
 rapid_pbd_msgs/PDDLProblem pddl_problem # only for update pddl problem
+string planner
