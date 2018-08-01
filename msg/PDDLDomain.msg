@@ -1,6 +1,6 @@
 # Domain for AI planning
 string name
-#string [] requirements
+string requirements
 #string [] constants
 
 # Types in the domain
