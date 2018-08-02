@@ -1,4 +1,5 @@
 string name          # name of problem
+string domain        # domain name
 rapid_pbd_msgs/PDDLObject[] objects # objects with names
 
 string[] initial     # initial condition in PDDL
