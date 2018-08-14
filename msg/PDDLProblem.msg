@@ -11,4 +11,4 @@ rapid_pbd_msgs/Landmark[] landmarks
 string goal          # goal conjunction in PDDL
 rapid_pbd_msgs/PDDLPredicate[] goal_states
 
-string generated_plan
+pddl_msgs/PDDLStep[] sequence
