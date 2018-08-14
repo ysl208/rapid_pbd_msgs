@@ -19,6 +19,7 @@ string ADD_PDDL_PROBLEM = add pddl problem
 string UPDATE_PDDL_PROBLEM = update pddl problem
 string DELETE_PDDL_PROBLEM = delete pddl problem
 string SOLVE_PDDL_PROBLEM = solve pddl problem
+string RUN_PDDL_PLAN = run pddl plan
 
 # Checking the program conditions
 string GENERATE_CONDITIONS = generate conditions
