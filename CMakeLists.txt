@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_generation
   moveit_msgs
+  pddl_msgs
   sensor_msgs
   std_msgs
   trajectory_msgs
@@ -101,6 +102,7 @@ generate_messages(
   control_msgs
   geometry_msgs
   moveit_msgs
+  pddl_msgs
   sensor_msgs
   trajectory_msgs
 )
@@ -142,6 +144,7 @@ catkin_package(
     control_msgs
     geometry_msgs
     moveit_msgs
+    pddl_msgs
     sensor_msgs
     trajectory_msgs
     message_runtime
