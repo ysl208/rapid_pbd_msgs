@@ -11,11 +11,13 @@ string ASSIGN_SURFACE_OBJECTS = assign surface objects
 # PDDL actions
 string DETECT_ACTION_CONDITIONS = detect action conditions
 string ADD_PDDL_ACTION = add pddl action
+string COPY_PDDL_ACTION = copy pddl action
 string UPDATE_PDDL_ACTION = update pddl action
 string DELETE_PDDL_ACTION = delete pddl action
 # PDDL problems
 string DETECT_WORLD_STATE = detect world state
 string ADD_PDDL_PROBLEM = add pddl problem
+string COPY_PDDL_PROBLEM = copy pddl problem
 string UPDATE_PDDL_PROBLEM = update pddl problem
 string DELETE_PDDL_PROBLEM = delete pddl problem
 string SOLVE_PDDL_PROBLEM = solve pddl problem
