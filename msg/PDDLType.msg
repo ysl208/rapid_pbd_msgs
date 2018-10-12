@@ -8,9 +8,9 @@ string TABLE_ENTITY = table
 # Objects (subset of TABLE_ENTITY)
 string OBJECT = object
 string CUBE_OBJECT = cube
-string TOWER_OBJECT = tower
-string PLATE_OBJECT = plate
-string RECTANGLE_OBJECT = rectangle
+string PILLAR_OBJECT = pillar
+string BASE_OBJECT = base
+string ROOF_OBJECT = roof
 
 # Locations (subset of TABLE_ENTITY)
 string POSITION = position
@@ -28,9 +28,9 @@ string RIGHT_ARM = right arm
 string gripper_arm
 
 ## If it is an object, then the ratio of its dimensions should be defined
-geometry_msgs/Vector3 unit_obj_dims # object dimensions along x,y,z-axes
+geometry_msgs/Vector3 dimensions # dimensions along x,y,z-axes
 
 ## If it is a position, then its location needs to be defined
 ## together with the size of the location
 geometry_msgs/Pose pose # location center point
-geometry_msgs/Vector3 dimensions # location dimensions along x,y,z-axes
+
