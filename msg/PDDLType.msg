@@ -4,15 +4,15 @@ string SUCTION_GRIPPER = suction
 string CLAW_GRIPPER = claw
 
 # Table Entities
-string TABLE_ENTITY = table
-# Objects (subset of TABLE_ENTITY)
+string ENTITY = entity
+# Objects (subset of ENTITY)
 string OBJECT = object
 string CUBE_OBJECT = cube
 string PILLAR_OBJECT = pillar
 string BASE_OBJECT = base
 string ROOF_OBJECT = roof
 
-# Locations (subset of TABLE_ENTITY)
+# Locations (subset of ENTITY)
 string POSITION = position
 string A_POSITION = posA
 string B_POSITION = posB
