@@ -6,6 +6,7 @@ string DELETE = delete program
 
 # Used to update the PDDL domain
 string SAVE_ON_EXIT = save on exit program
+string SELECT_PDDL_DOMAIN = select pddl domain
 string UPDATE_PDDL_DOMAIN = update pddl domain
 string ASSIGN_SURFACE_OBJECTS = assign surface objects
 # PDDL actions
@@ -73,6 +74,9 @@ rapid_pbd_msgs/Action action
 int32 action_num # 0-indexed action number
 rapid_pbd_msgs/Landmark landmark # main landmark for condition check
 rapid_pbd_msgs/Specification spec # view specification
+
+# PDDL 
+string domain_name
 string domain_id
 rapid_pbd_msgs/PDDLDomain pddl_domain
 string action_name
