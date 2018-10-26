@@ -146,6 +146,7 @@ catkin_package(
     moveit_msgs
     pddl_msgs
     sensor_msgs
+    std_msgs
     trajectory_msgs
     message_runtime
 #  DEPENDS system_lib
