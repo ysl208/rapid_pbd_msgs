@@ -14,6 +14,7 @@ string type
 # an end-effector pose can always be transformed into the frame of a different landmark.
 # This field can be blank if the landmark's pose is unknown at the time.
 geometry_msgs/PoseStamped pose_stamped
+std_msgs/ColorRGBA color
 
 # If type == TF_FRAME, name is the frame ID
 # If type == SURFACE_BOX, name is an arbitrary name like "Object 1"
@@ -22,3 +23,4 @@ string name
 geometry_msgs/Vector3 surface_box_dims # Dimensions of a tabletop box
 uint32 ar_tag_id # The AR tag ID or master tag ID
 int32 marker_type # The visualization marker type
+bool match # if set to true, then try to find matching landmark, otherwise use as is
