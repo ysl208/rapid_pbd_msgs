@@ -36,7 +36,8 @@ string actuator_group
 
 # Acutation specifications
 ## If type == ACTUATE_GRIPPER
-control_msgs/GripperCommand gripper_command 
+string SUCTION_GRIPPER = suction gripper
+control_msgs/GripperCommand gripper_command
 
 ## If type == MOVE_TO_JOINT_GOAL
 ## Used to move the head, torso, arm, or a custom set of joints
