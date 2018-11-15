@@ -7,6 +7,7 @@ string DELETE = delete program
 # Used to update the PDDL domain
 string SAVE_ON_EXIT = save on exit program
 string SELECT_PDDL_DOMAIN = select pddl domain
+string DELETE_PDDL_DOMAIN = delete pddl domain
 string UPDATE_PDDL_DOMAIN = update pddl domain
 string ASSIGN_SURFACE_OBJECTS = assign surface objects
 # PDDL actions
@@ -23,6 +24,7 @@ string UPDATE_PDDL_PROBLEM = update pddl problem
 string DELETE_PDDL_PROBLEM = delete pddl problem
 string SOLVE_PDDL_PROBLEM = solve pddl problem
 string RUN_PDDL_PLAN = run pddl plan
+string REFRESH_PROBLEM = refresh problem
 
 # Checking the program conditions
 string GENERATE_CONDITIONS = generate conditions
