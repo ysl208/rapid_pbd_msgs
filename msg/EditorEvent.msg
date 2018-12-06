@@ -4,6 +4,9 @@
 string UPDATE = update program
 string DELETE = delete program
 
+string SAVE_BAG_FILE = save bag file
+string LOG_ACTIVITY = log activity
+
 # Used to update the PDDL domain
 string SAVE_ON_EXIT = save on exit program
 string SELECT_PDDL_DOMAIN = select pddl domain
@@ -14,6 +17,7 @@ string ASSIGN_SURFACE_OBJECTS = assign surface objects
 string DETECT_ACTION_CONDITIONS = detect action conditions
 string ADD_PDDL_ACTION = add pddl action
 string COPY_PDDL_ACTION = copy pddl action
+string GET_PREPROGRAMMED_ACTION = get preprogrammed action
 string UPDATE_PDDL_ACTION = update pddl action
 string DELETE_PDDL_ACTION = delete pddl action
 # PDDL problems
