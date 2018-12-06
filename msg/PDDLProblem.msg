@@ -12,3 +12,4 @@ string goal          # goal conjunction in PDDL
 rapid_pbd_msgs/PDDLPredicate[] goal_states
 
 pddl_msgs/PDDLStep[] sequence
+string output
