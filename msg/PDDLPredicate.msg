@@ -3,6 +3,8 @@
 string IS_CLEAR = clear
 string IS_ON = on
 string IS_STACKABLE = stackable
+string IS_THIN = thin
+string IS_FLAT = flat
 
 string name
 
